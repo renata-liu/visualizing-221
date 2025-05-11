@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --dark-blue: #000A3E;
+  --light-blue: #46A5FF;
+  --blue-gray: #8290A7;
+  --fuschia: #DF77F7;
+  --bright-green: #45E134;
+  --periwinkle: #1C22A0;
+  --orange: #FFA743;
+  --pink: #FF62A1;
+}
+
+@utility card-hover {
+  @apply transition-transform duration-300 hover:scale-[1.02];
+}
+
+@utility light-blue {
+  color: var(--light-blue);
+}
+
+@utility dark-blue {
+  color: var(--dark-blue);
+}
+
+@utility blue-gray {
+  color: var(--blue-gray);
+}
+
+@utility fuschia {
+  color: var(--fuschia);
+}
+
+@utility bright-green {
+  color: var(--bright-green);
+}
+
+@utility periwinkle {
+  color: var(--periwinkle);
+}
+
+@utility orange {
+  color: var(--orange);
+}
+
+@utility pink {
+  color: var(--pink);
+}
